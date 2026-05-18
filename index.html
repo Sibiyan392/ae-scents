@@ -1,28 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Shop luxury home fragrances in South Africa. Discover premium reed diffusers, room & linen mists, car diffusers, elegant scents and luxury fragrance collections from A&E Scents." />
-  <meta name="keywords" content="home fragrances South Africa, reed diffusers, luxury candles, room mist, linen mist, car diffuser, luxury scents, home fragrance collection, A&E Scents, fragrance store South Africa" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Shop premium home fragrances in South Africa. Luxury reed diffusers, room & linen mists, car diffusers. Wholesale & retail – get more clients for your business. A&E Scents official." />
+  <meta name="keywords" content="home fragrances South Africa, reed diffusers, room mist, linen mist, car diffuser, luxury scents, A&E Scents, fragrance store, wholesale fragrances, gift sets South Africa, premium home fragrance" />
   <meta name="author" content="A&E Scents" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#c79c72" />
+  <meta name="google-site-verification" content="your-verification-code" /> <!-- Add real code for SEO -->
 
-  <meta property="og:title" content="A&E Scents | Luxury Home Fragrances" />
-  <meta property="og:description" content="Luxury home fragrances crafted to elevate your space. Shop premium reed diffusers, room mists and signature scents." />
+  <!-- Open Graph / Social Media (drives traffic from FB, WhatsApp, IG) -->
+  <meta property="og:title" content="A&E Scents | Premium Home Fragrances SA" />
+  <meta property="og:description" content="Luxury reed diffusers, room mists & car fragrances. Nationwide delivery. Wholesale ready – get more clients for your store." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="IMG-20260518-WA0011.jpg" />
+  <meta property="og:url" content="https://aescents.co.za" />
+  <meta property="og:site_name" content="A&E Scents" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="A&E Scents | Luxury Home Fragrances" />
-  <meta name="twitter:description" content="Luxury home fragrance collection designed for beautiful spaces." />
+  <meta name="twitter:title" content="A&E Scents | Premium Home Fragrances" />
+  <meta name="twitter:description" content="Transform spaces with luxury scents. Shop now or become a stockist. SA's premium fragrance collection." />
   <meta name="twitter:image" content="IMG-20260518-WA0011.jpg" />
-  <title>A&E Scents | Luxury Home Fragrances</title>
+
+  <title>A&E Scents | Premium Home Fragrances – Luxury Scents SA</title>
 
   <link rel="icon" type="image/png" href="IMG-20260518-WA0012.jpg">
   <link rel="apple-touch-icon" href="IMG-20260518-WA0012.jpg">
+  <link rel="canonical" href="https://aescents.co.za" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,14 +63,15 @@
       padding: 0 1.5rem;
     }
 
+    /* Navbar: sticky + responsive */
     nav {
       position: sticky;
       top: 0;
       z-index: 999;
-      background: rgba(255,255,255,0.72);
-      backdrop-filter: blur(18px);
-      border-bottom: 1px solid rgba(220,200,180,0.3);
-      padding: 1rem 0;
+      background: rgba(255,255,255,0.86);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(220,200,180,0.4);
+      padding: 0.9rem 0;
       box-shadow: 0 8px 30px rgba(0,0,0,0.03);
     }
 
@@ -79,24 +85,24 @@
 
     .logo h1 {
       font-family: 'Quicksand', sans-serif;
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       font-weight: 700;
       background: linear-gradient(135deg, #d1a679, #8c6b4f);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
-      letter-spacing: -1px;
+      letter-spacing: -0.5px;
     }
 
     .logo span {
-      font-size: 0.7rem;
+      font-size: 0.68rem;
       color: #b8926d;
-      letter-spacing: 0.25rem;
+      letter-spacing: 0.2rem;
     }
 
     .nav-links {
       display: flex;
-      gap: 1.5rem;
+      gap: 1.8rem;
       flex-wrap: wrap;
     }
 
@@ -105,37 +111,22 @@
       color: #5c4c3c;
       font-weight: 600;
       font-size: 0.85rem;
-      position: relative;
       transition: 0.3s;
+      position: relative;
     }
 
     .nav-links a:hover {
       color: #c39a70;
     }
 
-    .nav-links a::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: -6px;
-      width: 0;
-      height: 2px;
-      background: #c39a70;
-      transition: 0.3s;
-    }
-
-    .nav-links a:hover::after {
-      width: 100%;
-    }
-
     .hero {
-      padding: 5rem 0;
+      padding: 4rem 0 3rem;
     }
 
     .hero-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 3rem;
+      gap: 2.5rem;
       align-items: center;
     }
 
@@ -143,15 +134,15 @@
       color: #b58a5f;
       font-size: 0.75rem;
       font-weight: 700;
-      letter-spacing: 0.25rem;
+      letter-spacing: 0.28rem;
       margin-bottom: 1rem;
     }
 
     .hero h2 {
       font-family: 'Quicksand', sans-serif;
-      font-size: clamp(2.2rem, 5vw, 4rem);
-      line-height: 1.1;
-      margin-bottom: 1.5rem;
+      font-size: clamp(2rem, 5vw, 3.8rem);
+      line-height: 1.15;
+      margin-bottom: 1.2rem;
       color: #2d2218;
     }
 
@@ -180,12 +171,12 @@
       align-items: center;
       gap: 10px;
       text-decoration: none;
-      box-shadow: 0 10px 25px rgba(201,168,124,0.3);
+      box-shadow: 0 8px 20px rgba(201,168,124,0.25);
     }
 
     .btn-primary:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 16px 35px rgba(201,168,124,0.4);
+      transform: translateY(-3px);
+      box-shadow: 0 14px 28px rgba(201,168,124,0.4);
     }
 
     .soft-card {
@@ -193,58 +184,41 @@
       border: 1px solid rgba(255,255,255,0.6);
       backdrop-filter: blur(14px);
       border-radius: 2rem;
-      padding: 1.2rem;
-      box-shadow:
-        0 20px 50px rgba(0,0,0,0.08),
-        inset 0 1px 1px rgba(255,255,255,0.5);
-      transition: all 0.4s ease;
-    }
-
-    .soft-card:hover {
-      transform: translateY(-10px) scale(1.01);
+      padding: 1rem;
+      transition: all 0.35s ease;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.06);
     }
 
     .soft-card img {
       width: 100%;
       border-radius: 1.5rem;
-      max-height: 700px;
+      max-height: 650px;
       object-fit: cover;
     }
 
     .section-title {
       font-family: 'Quicksand', sans-serif;
-      font-size: clamp(1.7rem, 4vw, 2.5rem);
-      margin-bottom: 1rem;
+      font-size: clamp(1.6rem, 4vw, 2.3rem);
+      margin: 2rem 0 1rem;
       color: #2d2218;
       display: flex;
       align-items: center;
       gap: 1rem;
     }
 
-    .section-title i {
-      color: #c79c72;
-    }
-
     .price-intro {
       color: #776554;
       margin-bottom: 2rem;
+      font-weight: 500;
     }
 
     .price-catalog {
-      background: rgba(255,255,255,0.92);
-      border-radius: 2rem;
+      background: rgba(255,255,255,0.94);
+      border-radius: 1.8rem;
       margin: 1.5rem 0;
       overflow: hidden;
-      border: 1px solid rgba(235,220,205,0.8);
-      box-shadow:
-        0 10px 40px rgba(0,0,0,0.04),
-        0 2px 5px rgba(0,0,0,0.03);
-      transition: all 0.35s ease;
-    }
-
-    .price-catalog:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+      border: 1px solid rgba(235,220,205,0.9);
+      transition: 0.2s;
     }
 
     .categ-header {
@@ -261,15 +235,9 @@
       display: grid;
       grid-template-columns: 1.2fr 1.8fr 0.7fr;
       align-items: center;
-      padding: 1.1rem 1.5rem;
+      padding: 1rem 1.5rem;
       border-bottom: 1px solid #F6EFE8;
-      transition: all 0.25s ease;
       gap: 1rem;
-    }
-
-    .product-row:hover {
-      background: linear-gradient(to right, #fffaf5, #fff);
-      padding-left: 2rem;
     }
 
     .product-name {
@@ -291,55 +259,44 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 1.5rem;
-      margin: 3rem 0;
+      gap: 1.8rem;
+      margin: 2rem 0;
     }
 
     .gallery-item {
       background: rgba(255,255,255,0.92);
-      border-radius: 2rem;
-      width: min(100%, 320px);
+      border-radius: 1.8rem;
+      width: min(100%, 310px);
       text-align: center;
       padding: 1rem;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
       border: 1px solid rgba(235,225,215,0.8);
-      transition: all 0.35s ease;
-      overflow: hidden;
     }
 
     .gallery-item:hover {
-      transform: translateY(-10px) rotate(-1deg);
-      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      transform: translateY(-8px);
     }
 
     .gallery-item img {
       width: 100%;
       height: 240px;
       object-fit: cover;
-      border-radius: 1rem;
-      transition: transform 0.4s ease;
+      border-radius: 1.2rem;
       cursor: pointer;
     }
 
-    .gallery-item:hover img {
-      transform: scale(1.05);
-    }
-
     .image-caption {
-      margin-top: 0.8rem;
-      font-size: 0.8rem;
-      color: #9b7b5e;
+      margin-top: 0.7rem;
       font-weight: 600;
+      color: #9b7b5e;
     }
 
     .contact-section {
-      background:
-        linear-gradient(135deg, rgba(255,255,255,0.95), rgba(250,245,240,0.95));
-      border-radius: 2.5rem;
-      padding: 2.5rem;
-      margin: 4rem 0;
-      border: 1px solid rgba(230,220,210,0.8);
-      box-shadow: 0 20px 50px rgba(0,0,0,0.04);
+      background: linear-gradient(135deg, rgba(255,255,255,0.96), rgba(250,245,240,0.96));
+      border-radius: 2.2rem;
+      padding: 2.2rem;
+      margin: 3rem 0;
+      border: 1px solid #ede0d2;
     }
 
     .contact-flex {
@@ -358,38 +315,58 @@
 
     .contact-item i {
       color: #c79c72;
-      font-size: 1.2rem;
-    }
-
-    .contact-item a,
-    .contact-item span {
-      color: #5f4f3f;
-      text-decoration: none;
-      font-weight: 500;
+      width: 1.6rem;
     }
 
     .badge-light {
       background: white;
-      padding: 2rem;
-      border-radius: 2rem;
+      padding: 1.8rem;
+      border-radius: 1.8rem;
       border: 1px solid #eee1d4;
-      min-width: 260px;
+      min-width: 250px;
       text-align: center;
     }
 
-    /* LIGHTBOX */
+    .wholesale-card {
+      background: #fff9f2;
+      border-radius: 2rem;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      text-align: center;
+      border: 1px solid #f0e2d4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #9B7B5E;
+      font-size: 0.8rem;
+    }
+
+    .fade-up {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.7s ease;
+    }
+
+    .fade-up.appear {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Lightbox */
     .lightbox {
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.9);
+      background: rgba(0,0,0,0.92);
       display: flex;
       align-items: center;
       justify-content: center;
       opacity: 0;
       pointer-events: none;
-      transition: 0.3s ease;
-      z-index: 9999;
-      padding: 2rem;
+      transition: 0.25s;
+      z-index: 10000;
+      padding: 1rem;
     }
 
     .lightbox.active {
@@ -398,412 +375,259 @@
     }
 
     .lightbox img {
-      max-width: 95%;
-      max-height: 90vh;
-      border-radius: 1.5rem;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
-      animation: zoomIn 0.3s ease;
+      max-width: 92%;
+      max-height: 88vh;
+      border-radius: 1.2rem;
     }
 
-    @keyframes zoomIn {
-      from {
-        transform: scale(0.9);
-        opacity: 0;
-      }
-      to {
-        transform: scale(1);
-        opacity: 1;
-      }
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      color: #9B7B5E;
-      font-size: 0.8rem;
-      background: linear-gradient(to top, #faf6f2, transparent);
-    }
-
-    .fade-up {
-      opacity: 0;
-      transform: translateY(40px);
-      transition: all 0.8s ease;
-    }
-
-    .fade-up.appear {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    @media(max-width: 900px) {
+    /* Mobile perfection */
+    @media (max-width: 900px) {
       .hero-grid {
         grid-template-columns: 1fr;
         text-align: center;
-        gap: 2rem;
+        gap: 1.8rem;
       }
-
       .hero-desc {
         margin-left: auto;
         margin-right: auto;
       }
-
       .section-title {
         justify-content: center;
       }
-    }
-
-    @media(max-width: 1024px) {
-      .container {
-        padding: 0 1.2rem;
-      }
-
-      .gallery-item {
-        width: 100%;
-      }
-    }
-
-    @media(max-width: 700px) {
       .product-row {
         grid-template-columns: 1fr;
+        text-align: center;
       }
-
       .price-cell {
-        text-align: left;
+        text-align: center;
       }
-
       .nav-container {
         justify-content: center;
       }
-
       .nav-links {
         justify-content: center;
-        gap: 1rem;
+        gap: 1.2rem;
       }
-
-      .nav-links a {
-        font-size: 0.72rem;
-      }
-
-      .hero {
-        padding: 3rem 0;
-      }
-
-      .hero h2 {
-        font-size: 2.3rem;
-      }
-
-      .hero-desc {
-        font-size: 0.95rem;
-      }
-
       .btn-primary {
-        width: 100%;
-        justify-content: center;
+        margin: 0 auto;
       }
-
-      .contact-section {
-        padding: 1.5rem;
+      .contact-flex {
+        flex-direction: column;
       }
-
       .badge-light {
         width: 100%;
       }
+    }
 
-      .image-showcase {
-        gap: 1rem;
+    @media (max-width: 550px) {
+      .container {
+        padding: 0 1.2rem;
       }
-
+      .hero h2 {
+        font-size: 2rem;
+      }
       .gallery-item img {
-        height: 300px;
+        height: 210px;
       }
+    }
 
-      .gallery-item {
-      }
+    .traffic-badge {
+      background: #e9dfd3;
+      border-radius: 40px;
+      padding: 0.5rem 1.2rem;
+      font-size: 0.8rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 1rem;
     }
   </style>
 </head>
 <body>
 
-  <nav>
-    <div class="container nav-container">
-      <div class="logo">
-        <h1>A&E SCENTS</h1>
-        <span>LUXURY HOME FRAGRANCES</span>
-      </div>
+<nav>
+  <div class="container nav-container">
+    <div class="logo">
+      <h1>A&E SCENTS</h1>
+      <span>PREMIUM FRAGRANCES</span>
+    </div>
+    <div class="nav-links">
+      <a href="#home">HOME</a>
+      <a href="#prices">COLLECTION</a>
+      <a href="#gallery">GALLERY</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+  </div>
+</nav>
 
-      <div class="nav-links">
-        <a href="#home">HOME</a>
-        <a href="#prices">PRICES</a>
-        <a href="#gallery">GALLERY</a>
-        <a href="#contact">CONTACT</a>
+<main>
+  <section class="hero container" id="home">
+    <div class="hero-grid">
+      <div>
+        <div class="slogan">✦ ELEVATE YOUR SPACE ✦</div>
+        <h2>Premium <span class="accent">Home</span> Fragrances<br> For Modern Living</h2>
+        <p class="hero-desc">
+          Luxury reed diffusers, room & linen mists, and car fragrances designed to captivate. Perfect for gifting, home styling, or retail — we help you attract more clients with exceptional scents.
+        </p>
+        <a href="#prices" class="btn-primary"><i class="fas fa-sparkles"></i> SHOP NOW</a>
+        <div class="traffic-badge">
+          <i class="fas fa-chart-line"></i> <span>Boost your business: wholesale & bulk orders ready</span>
+        </div>
+      </div>
+      <div>
+        <div class="soft-card">
+          <img src="IMG-20260518-WA0011.jpg" alt="A&E Scents luxury collection hero">
+        </div>
       </div>
     </div>
-  </nav>
+  </section>
 
-  <main>
+  <section class="container" id="prices">
+    <div class="section-title">
+      <i class="fas fa-feather"></i> Signature Fragrance Collection
+    </div>
+    <div class="price-intro">
+      <strong>Room & Linen Mists — R100</strong> · <strong>Reed Diffusers — R200</strong> · <strong>Car Diffusers — R40</strong>
+      <span style="margin-left:0.6rem; background:#e8ddd0; padding:0.2rem 0.8rem; border-radius:40px; font-size:0.75rem;"><i class="fas fa-store"></i> Wholesale pricing</span>
+    </div>
 
-    <section class="hero container" id="home">
-      <div class="hero-grid">
+    <div class="price-catalog fade-up">
+      <div class="categ-header"><i class="fas fa-feather"></i> REED DIFFUSERS · 200ML</div>
+      <div class="product-row"><div class="product-name">Orange</div><div class="notes-cell">Orange & bergamot — bright citrus</div><div class="price-cell">R200</div></div>
+      <div class="product-row"><div class="product-name">Sugared Grapefruit</div><div class="notes-cell">Sweet grapefruit & vanilla</div><div class="price-cell">R200</div></div>
+      <div class="product-row"><div class="product-name">Sandalwood</div><div class="notes-cell">Creamy sandalwood & warmth</div><div class="price-cell">R200</div></div>
+      <div class="product-row"><div class="product-name">Amber Oud</div><div class="notes-cell">Rich oud & dark amber</div><div class="price-cell">R200</div></div>
+    </div>
 
+    <div class="price-catalog fade-up">
+      <div class="categ-header"><i class="fas fa-spray-can-sparkles"></i> ROOM & LINEN MISTS · 200ML</div>
+      <div class="product-row"><div class="product-name">Berries</div><div class="notes-cell">Sweet toasted berries & bubbly</div><div class="price-cell">R100</div></div>
+      <div class="product-row"><div class="product-name">Lemongrass</div><div class="notes-cell">Fresh herbaceous clean scent</div><div class="price-cell">R100</div></div>
+      <div class="product-row"><div class="product-name">Amber Oud</div><div class="notes-cell">Deep luxurious home fragrance</div><div class="price-cell">R100</div></div>
+    </div>
+
+    <div class="price-catalog fade-up">
+      <div class="categ-header"><i class="fas fa-car-side"></i> CAR DIFFUSERS · 8ML / 10ML</div>
+      <div class="product-row"><div class="product-name">Orange & Bergamot</div><div class="notes-cell">Bright energizing</div><div class="price-cell">R40</div></div>
+      <div class="product-row"><div class="product-name">Tropical Vanilla</div><div class="notes-cell">Vanilla & pineapple</div><div class="price-cell">R40</div></div>
+      <div class="product-row"><div class="product-name">Amber Oud</div><div class="notes-cell">Bold signature scent</div><div class="price-cell">R40</div></div>
+    </div>
+
+    <!-- SELLING TO PEOPLE & GETTING MORE CLIENTS SECTION (no handcrafted) -->
+    <div class="wholesale-card fade-up">
+      <i class="fas fa-users" style="font-size: 2rem; color: #c79c72;"></i>
+      <h3 style="font-family: 'Quicksand'; margin: 0.5rem 0;">Grow your clientele with A&E Scents</h3>
+      <p style="color: #5e4c3a; max-width: 700px; margin: 0.5rem auto;">Perfect for boutique owners, decor stores, spas, and resellers. Our premium fragrances attract customers looking for quality — and we help you close more sales with consistent luxury. <strong>Bulk orders, fast delivery, and dedicated support.</strong></p>
+      <a href="#contact" class="btn-primary" style="margin-top: 1rem; background: #b1865a;">Request wholesale & partnership →</a>
+    </div>
+  </section>
+
+  <section class="container" id="gallery">
+    <div class="section-title"><i class="fas fa-images"></i> Our Collection In Focus</div>
+    <div class="image-showcase">
+      <div class="gallery-item fade-up"><img src="IMG-20260518-WA0004.jpg" alt="Room and linen mist"><div class="image-caption">Room & Linen Mists</div></div>
+      <div class="gallery-item fade-up"><img src="IMG-20260518-WA0005.jpg" alt="Reed diffusers"><div class="image-caption">Reed Diffusers</div></div>
+      <div class="gallery-item fade-up"><img src="IMG-20260518-WA0011.jpg" alt="Luxury collection"><div class="image-caption">Full Collection</div></div>
+      <div class="gallery-item fade-up"><img src="IMG-20260518-WA0007.jpg" alt="Car diffusers"><div class="image-caption">Car Fragrances</div></div>
+    </div>
+  </section>
+
+  <section class="container" id="contact">
+    <div class="contact-section fade-up">
+      <div class="contact-flex">
         <div>
-          <div class="slogan">✦ ELEVATE YOUR SPACE ✦</div>
-
-          <h2>
-            Luxury <span class="accent">Home</span><br>
-            Fragrances Crafted<br>
-            For Beautiful Spaces
-          </h2>
-
-          <p class="hero-desc">
-            Transform your home with luxurious handcrafted fragrances designed to create warmth, elegance, and unforgettable ambiance. Discover premium reed diffusers, room & linen mists, and signature car fragrances.
-          </p>
-
-          <a href="#prices" class="btn-primary">
-            <i class="fas fa-sparkles"></i>
-            VIEW COLLECTION
-          </a>
+          <h2 style="font-family: 'Quicksand';">Connect & Start Selling</h2>
+          <p style="color:#7b6857; margin-bottom: 1rem;">Orders, nationwide delivery, or wholesale partnership — let's bring luxury scents to more homes and your business.</p>
+          <div class="contact-item"><i class="fas fa-phone"></i> <a href="tel:+27678894020">067 889 4020</a></div>
+          <div class="contact-item"><i class="fab fa-whatsapp"></i> <a href="https://wa.me/27678894020" target="_blank">WhatsApp (fast replies)</a></div>
+          <div class="contact-item"><i class="fas fa-envelope"></i> <a href="mailto:nkatekom71@gmail.com">nkatekom71@gmail.com</a></div>
+          <div class="contact-item"><i class="fas fa-truck"></i> <span>Nationwide delivery — safe & tracked</span></div>
+          <div class="contact-item"><i class="fas fa-handshake"></i> <span><strong>Get more clients:</strong> competitive wholesale & dedicated support</span></div>
         </div>
-
-        <div>
-          <div class="soft-card">
-            <img src="IMG-20260518-WA0011.jpg" alt="A&E Scents">
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="container" id="prices">
-
-      <div class="section-title">
-        <i class="fas fa-feather"></i>
-        Signature Fragrance Collection
-      </div>
-
-      <div class="price-intro">
-        <strong>Room & Linen Mists — R100</strong> ·
-        <strong>Reed Diffusers — R200</strong> ·
-        <strong>Car Diffusers — R40</strong>
-      </div>
-
-      <div class="price-catalog fade-up">
-        <div class="categ-header">
-          <i class="fas fa-feather"></i>
-          REED DIFFUSERS · 200ML
-        </div>
-
-        <div class="product-row">
-          <div class="product-name">Orange</div>
-          <div class="notes-cell">Orange & bergamot — bright citrus freshness</div>
-          <div class="price-cell">R200</div>
-        </div>
-
-        <div class="product-row">
-          <div class="product-name">Sugared Grapefruit</div>
-          <div class="notes-cell">Sweet grapefruit & vanilla blend</div>
-          <div class="price-cell">R200</div>
-        </div>
-
-        <div class="product-row">
-          <div class="product-name">Sandalwood</div>
-          <div class="notes-cell">Creamy sandalwood & vanilla warmth</div>
-          <div class="price-cell">R200</div>
-        </div>
-
-        <div class="product-row">
-          <div class="product-name">Amber Oud</div>
-          <div class="notes-cell">Rich oud & dark amber luxury scent</div>
-          <div class="price-cell">R200</div>
+        <div class="badge-light">
+          <i class="fas fa-crown" style="font-size: 2rem; color:#c79c72;"></i>
+          <p style="margin-top:0.8rem; font-weight:600;">Premium Fragrance Partner</p>
+          <div style="margin:1rem 0; background:#f5ece3; padding:0.4rem 1rem; border-radius:50px; font-size:0.7rem;"><i class="fas fa-chart-simple"></i> Stock our scents</div>
+          <hr style="margin:1rem 0; border-color:#eee2d6;">
+          <p style="font-size:0.85rem;"><i class="fas fa-quote-left"></i> "Selling to the people, building brands — we help you attract loyal customers."</p>
         </div>
       </div>
-
-      <div class="price-catalog fade-up">
-        <div class="categ-header">
-          <i class="fas fa-spray-can-sparkles"></i>
-          ROOM & LINEN MISTS · 200ML
-        </div>
-
-        <div class="product-row">
-          <div class="product-name">Berries</div>
-          <div class="notes-cell">Sweet toasted berries & bubbly notes</div>
-          <div class="price-cell">R100</div>
-        </div>
-
-        <div class="product-row">
-          <div class="product-name">Lemongrass</div>
-          <div class="notes-cell">Fresh clean herbaceous scent</div>
-          <div class="price-cell">R100</div>
-        </div>
-
-        <div class="product-row">
-          <div class="product-name">Amber Oud</div>
-          <div class="notes-cell">Deep luxurious home fragrance</div>
-          <div class="price-cell">R100</div>
-        </div>
+      <div style="margin-top: 2rem; text-align: center; border-top: 1px solid #ece0d4; padding-top: 1.5rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;">
+        <span><i class="fas fa-check-circle" style="color:#c79c72;"></i> High-performance oils</span>
+        <span><i class="fas fa-check-circle" style="color:#c79c72;"></i> Elegant packaging</span>
+        <span><i class="fas fa-check-circle" style="color:#c79c72;"></i> Bulk discounts & fast turnaround</span>
       </div>
+    </div>
+  </section>
+</main>
 
-      <div class="price-catalog fade-up">
-        <div class="categ-header">
-          <i class="fas fa-car-side"></i>
-          CAR DIFFUSERS · 8ML / 10ML
-        </div>
+<footer>
+  <p>© 2026 A&E Scents — Premium Home Fragrances | South Africa</p>
+  <p style="margin-top: 0.3rem;">Reed Diffusers · Room & Linen Mists · Car Fragrances · Wholesale Ready</p>
+  <p style="font-size:0.7rem; opacity:0.7;">Designed to bring elegance & drive more clients to your business</p>
+</footer>
 
-        <div class="product-row">
-          <div class="product-name">Orange & Bergamot</div>
-          <div class="notes-cell">Bright energizing fragrance</div>
-          <div class="price-cell">R40</div>
-        </div>
+<div class="lightbox" id="lightbox">
+  <img src="" alt="Expanded View" id="lightbox-img">
+</div>
 
-        <div class="product-row">
-          <div class="product-name">Tropical Vanilla</div>
-          <div class="notes-cell">Creamy vanilla & pineapple blend</div>
-          <div class="price-cell">R40</div>
-        </div>
+<script>
+  // Intersection Observer for fade-up
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('appear');
+      }
+    });
+  }, { threshold: 0.1, rootMargin: "0px 0px -20px 0px" });
 
-        <div class="product-row">
-          <div class="product-name">Amber Oud</div>
-          <div class="notes-cell">Bold luxurious signature scent</div>
-          <div class="price-cell">R40</div>
-        </div>
-      </div>
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-    </section>
+  // Lightbox functionality
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  document.querySelectorAll('.gallery-item img').forEach(img => {
+    img.addEventListener('click', () => {
+      lightbox.classList.add('active');
+      lightboxImg.src = img.src;
+    });
+  });
+  lightbox.addEventListener('click', () => lightbox.classList.remove('active'));
 
-    <section class="container" id="gallery">
+  // Smooth anchor links + google-friendly
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const targetId = this.getAttribute('href');
+      if (targetId === "#" || targetId === "") return;
+      const targetEl = document.querySelector(targetId);
+      if (targetEl) {
+        e.preventDefault();
+        targetEl.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
 
-      <div class="section-title">
-        <i class="fas fa-images"></i>
-        Our Collection
-      </div>
+  // optional: log for traffic readiness - SEO meta already includes description, keywords
+  console.log("A&E Scents — Fully responsive, SEO optimized, ready for client traffic & conversions.");
+</script>
 
-      <div class="image-showcase">
-
-        <div class="gallery-item fade-up">
-          <img src="IMG-20260518-WA0004.jpg" alt="Room Mist">
-          <div class="image-caption">Room & Linen Mists</div>
-        </div>
-
-        <div class="gallery-item fade-up">
-          <img src="IMG-20260518-WA0005.jpg" alt="Reed Diffuser">
-          <div class="image-caption">Reed Diffusers</div>
-        </div>
-
-        <div class="gallery-item fade-up">
-          <img src="IMG-20260518-WA0011.jpg" alt="Luxury Collection">
-          <div class="image-caption">Luxury Collection</div>
-        </div>
-
-        <div class="gallery-item fade-up">
-          <img src="IMG-20260518-WA0007.jpg" alt="Car Diffusers">
-          <div class="image-caption">Car Fragrances</div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <section class="container" id="contact">
-
-      <div class="contact-section fade-up">
-
-        <div class="contact-flex">
-
-          <div>
-            <h2 style="font-family: 'Quicksand', sans-serif; margin-bottom: 1rem;">
-              Let’s Connect
-            </h2>
-
-            <p style="color:#7b6857; margin-bottom: 1.5rem;">
-              Place your order, ask about delivery, or contact us for wholesale inquiries.
-            </p>
-
-            <div class="contact-item">
-              <i class="fas fa-phone"></i>
-              <a href="tel:+27678894020">067 889 4020</a>
-            </div>
-
-            <div class="contact-item">
-              <i class="fab fa-whatsapp"></i>
-              <a href="https://wa.me/27678894020" target="_blank">
-                WhatsApp Us
-              </a>
-            </div>
-
-            <div class="contact-item">
-              <i class="fas fa-envelope"></i>
-              <a href="mailto:nkatekom71@gmail.com">
-                nkatekom71@gmail.com
-              </a>
-            </div>
-
-            <div class="contact-item">
-              <i class="fas fa-truck"></i>
-              <span>Nationwide Delivery Available</span>
-            </div>
-          </div>
-
-          <div class="badge-light">
-            <i class="fas fa-crown" style="font-size: 2rem; color: #c79c72;"></i>
-
-            <p style="margin-top: 1rem; font-weight: 600; color: #5b4b3c;">
-              Luxury Home Fragrance Collection
-            </p>
-
-            <div style="margin-top: 1rem; background:#f5ece3; display:inline-block; padding:0.5rem 1rem; border-radius:100px; font-size:0.75rem; color:#8b6f53;">
-              Premium Fragrance Collection
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-  </main>
-
-  <footer>
-    <p>© 2026 A&E Scents — Luxury Home Fragrances</p>
-
-    <p style="margin-top: 0.4rem; opacity: 0.8;">
-      Reed Diffusers · Room & Linen Mists · Car Fragrances
-    </p>
-  </footer>
-
-  <div class="lightbox" id="lightbox">
-    <img src="" alt="Expanded Image" id="lightbox-img">
-  </div>
-
-  <script>
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          entry.target.classList.add('appear');
-        }
-      })
-    }, { threshold: 0.1 })
-
-    document.querySelectorAll('.fade-up').forEach(el => {
-      observer.observe(el)
-    })
-
-    const lightbox = document.getElementById('lightbox')
-    const lightboxImg = document.getElementById('lightbox-img')
-
-    document.querySelectorAll('.gallery-item img').forEach(img => {
-      img.addEventListener('click', () => {
-        lightbox.classList.add('active')
-        lightboxImg.src = img.src
-      })
-    })
-
-    lightbox.addEventListener('click', () => {
-      lightbox.classList.remove('active')
-    })
-
-  </script>
-
+<!-- Additional structural microdata for better SEO (local business) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "A&E Scents",
+  "image": "IMG-20260518-WA0011.jpg",
+  "telephone": "+27678894020",
+  "email": "nkatekom71@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "ZA"
+  },
+  "priceRange": "R40 - R200",
+  "description": "Luxury home fragrances: reed diffusers, room mists, car diffusers. Wholesale and retail across South Africa.",
+  "url": "https://aescents.co.za"
+}
+</script>
 </body>
 </html>
-
